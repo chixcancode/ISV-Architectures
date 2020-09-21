@@ -12,6 +12,7 @@ Start by creating three subscriptions:
 - Align subscriptions to the region you intend to deploy your solution.
 
 ![An initial subscription model showing keys next to boxes labeled "prod", "nonprod", and "shared"](../_images/initial-subscriptions.png)
+
 _Figure 1: An initial subscription model with keys next to boxes labeled "prod", "nonprod" and "shared"._
 
 Benefits with this approach:
@@ -40,6 +41,7 @@ As the number of subscriptions increases the management overhead will increase. 
 ### Example: Single-tenant solution ISV hosted and managed
 
 ![A scaled design using management groups for a single-tenant ISV hosted and managed solution"](../_images/single-tenant-isv-hosted-and-managed.png)
+
 _Figure 2: A scaled design using management groups for a single-tenant ISV hosted and managed solution._
 
 Design Considerations:
@@ -51,7 +53,8 @@ Design Considerations:
 ### Example: Multi-tenant solution ISV hosted and managed
 
 ![A scaled design using management groups for a multi-tenant ISV hosted and managed solution"](../_images/multi-tenant-isv-hosted-and-managed.png)
-_Figure 2: A scaled design using management groups for a multi-tenant ISV hosted and managed solution._
+
+_Figure 3: A scaled design using management groups for a multi-tenant ISV hosted and managed solution._
 
 Design Considerations:
 
@@ -65,7 +68,8 @@ If you are planning on deploying your solution into your Customers Azure environ
 ### Example: Single-tenant solution Customer hosted and ISV managed
 
 ![A scaled design using Azure Lighthouse for a single-tenant Customer hosted and ISV managed solution"](../_images/single-tenant-customer-hosted-isv-managed.png)
-_Figure 2: A scaled design using Azure Lighthouse for a single-tenant Customer hosted and ISV managed solution._
+
+_Figure 4: A scaled design using Azure Lighthouse for a single-tenant Customer hosted and ISV managed solution._
 
 Design Considerations:
 
